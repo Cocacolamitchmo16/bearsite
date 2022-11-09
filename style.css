@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10%;
+    background-color: #0a0a0a;
+    justify-content: space-between;
+}
+
+.logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    margin-top: -6px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: #FFF;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 1px;
+}
+nav ul i{
+    padding: 10px;
+}
+.background{
+   height: 600px;
+   width: 100%;
+   position: relative;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.centered{
+    position:absolute;
+    margin-left: 20%;
+    padding-top: -20%;
+    top: 20%;
+}
+#one{
+    font-size: 35px;
+    color:black;
+    text-align: center;
+}
+#two{
+    font-size: 17px;
+    color:rgb(87, 82, 82);
+    text-align: center;
+    margin-top: -4%;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+   margin-left: 40%;
+   margin-top: 5%;
+   background-color: black;
+   color:#FFF;
+   padding: 8px 50px;
+   font-size: 10px;
+}
+#tatlo{
+    margin-top: 35%;
+    font-size: 35px;
+    color:black;
+    text-align: center;
+    padding-top: 90px;
+}
+#apat{
+    font-size: 15px;
+    color:black;
+    text-align: center;
+}
+#lima{
+    font-size: 15px;
+    color:black;
+    text-align: center;
+
+}
+*
+{
+    box-sizing: border-box;
+}
+.column { 
+    float:left;
+    width: 50%;
+    padding: 30px;
+    height: 300px;
+    color: #FFF;
+    margin-top: 350px;
+    
+}
+.column .h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
