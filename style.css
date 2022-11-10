@@ -106,8 +106,16 @@ button{
     margin-top: 350px;
     
 }
-.column .h1{
-    font-family: Arial, Helvetica, sans-serif;
+.column h2{
+    font-family:'Trebuchet MS';
+    font-weight: lighter;
+}
+.column p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #928d8d;
+}
 }
 .row:after{
     content: "";
