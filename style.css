@@ -114,17 +114,14 @@ button{
     display: table;
     clear: both;
 }
-.frm 
-  {
+.frm  {
     min-height:100vh;
     width: 100%;
     display:flex;
     align-items: center;
     justify-content: center;
-
   }
-  .forms
-  {
+  .forms{
     width: 150%;
     padding-bottom: 10px;
     box-shadow: 0 0 10px 0 rgba(0 0 0 0 .19);
@@ -136,16 +133,14 @@ button{
     align-items: center;
     background-color: rgb(221, 228, 229);
   }
-  .textsec 
-  {
+  .textsec {
     width: 50%;
     float: left;
     padding-left: 30px;
     font-size: 13px;
     font-family: Arial;
   }
-  .formed
-  {
+  .formed {
     width: 50%;
     float:right;
     padding-left: 50px;
@@ -153,8 +148,7 @@ button{
     margin-top: 5%;
     padding-top: -5px;
   }
-  .formz
-  {
+  .formz{
     background-color: black;
     width: 400px;
     height: 350px;
@@ -162,14 +156,12 @@ button{
     padding-top: 5px;
     padding-bottom: 10%;
     margin-top: -25%;
-
   }
   .second{
     font-family: Arial;
     font-size: 12px;
   }
-  .code
-  {
+  .code{
     width: 60px;
     height: 30px;
     font-family: Arial;
@@ -187,24 +179,20 @@ button{
     font-family: Arial;
     font-size: 12px;
   }
-  .tname
-  {
+  .tname{
     width: 350px;
     height:40px;
     padding-left: 10px;
     margin-top: -7px;
   }
-.intouch
-  {
+.intouch{
     text-align: center;
     font-weight: 300;
     font-family:Caveat;
     font-size: 24px;
     font-style: italic;
-   
   }
-  .buttons
-  {
+  .buttons{
     margin-left: -1%;
     margin-top: -2%;
     background-color: rgb(207, 152, 31);
