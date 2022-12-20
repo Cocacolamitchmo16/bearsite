@@ -21,10 +21,10 @@
                 <li class="nav-item"><a class="nav-link mx-3" style="font-size: 15px;"  href="#contact">CONTACT</a></li>
                 <li class="nav-item"><a class="nav-link mx-3" style="font-size: 15px;" href="#services">SERVICES</a></li>
                 <li class="nav-item">
-                    <a class="nav-link mx-3" style="font-size: 16px;" href="#">
-                        <i class="fa fa-facebook-f" style="margin-right: 5px; font-size: 16px;" href="#"></i>
-                        <i class="fa fa-twitter mx-1" style=" font-size: 16px;" href="#"></i>
-                        <i class="fa fa-youtube-play mx-1" style=" font-size: 16px;" href="#"></i>
+                    <a class="nav-link mx-3" style="font-size: 16px;" href="#" target="_blank">
+                        <i class="fa fa-facebook-f" style="margin-right: 5px; font-size: 16px;" href="#" target="_blank"></i>
+                        <i class="fa fa-twitter mx-1" style=" font-size: 16px;" href="#" target="_blank"></i>
+                        <i class="fa fa-youtube-play mx-1" style=" font-size: 16px;" href="#" target="_blank"></i>
                     </a>
                 </li>
 
@@ -51,7 +51,7 @@
     <div class="container px-2 ">
     <div class="row gx-2 justify-content-center">
     <div class="col-lg-8 text-center">
-        <h2 class="fw-light">This is a slicing test</h2>
+        <h2 class="fw-light">This is a slicing test.</h2>
         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et lacus vitae 
             ipsum porta pharetra. Cras a ligula ex. Donec ac dolor neque. Quisque tristique eu lectus nec fermentum. 
             Maecenas ac lectus dapibus, eleifend felis in, accumsan eros. Vestibulum id efficitur metus. Phasellus sit amet euismod urna.</p>      
@@ -77,7 +77,7 @@
             diam nunc sit amet tellus. <br><br></p>
     </div>
     <div class="col-md-6">
-        <h2 class="fw-light">Aint it?</h2>
+        <h2 class="fw-light">Ain't it?</h2>
         <p class="lead" style="font-size: 14px;">LLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et lacus vitae ipsum porta
             pharetra. Cras a ligula ex. Donec ac dolor neque. Quisque tristique eu lectus nec fer
             mentum. Maecenas ac lectus dapibus, eleifend felis in, accumsan eros. Vestibulum id
@@ -91,11 +91,11 @@
     </div>
 </section>
 
-<section id="contact">
+<section style="width: 75%; margin-left: 13%;" id="contact">
     <div class="container py-5 px-5" style="background-color: #dde5e5">
     <div class="row">
     <div class="col-md-6">
-            <h1>This is wrapped</h1>
+            <h1>This is wrapped.</h1>
             <p style="font-size: 14px;">Aenean ornare mi ac sodales varius. Ut consequat lacus in erat tincidunt vulpu-
                 tate. Proin vel quam sagittis, aliquet diam eu, sodales justo. Vestibulum ante
                 ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec
@@ -120,29 +120,30 @@
                 et magnis dis parturient montes, nascetur ridiculus mus. Nam ac dapibus diam,
                 vel aliquet ex. Morbi tincidunt dictum bibendum..</p>
         </div>
-        <div class="col-md-6 text-white h-100" style="background-color: #111111;">
-            <form class="my-5 mx-5">
-        <div class="form-group">
-            <h2 class="imtouch text-center fw-light" style="font-family: cursive;">Get in touch.</h2>
-            <label for="exampleInputEmail1">Your name</label>
-            <input type="email" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp">
+    
+        <div class="col-md-6 text-white h-100" style="background-color: #111111; margin-top: 10px;">
+            <form class="my-3 mx-3">
+        <div class="form-group" id ="frm">
+            <h2 class="intouch text-center fw-light" style="margin-top: 40px;">Get in touch.</h2>
+            <label for="exampleInputEmail1" style="padding-top: 25px;">Your name</label>
+            <input type="email" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" required>
         </div>
         <div class="form-group">
-            <label for="exampleInputPassword1">Your email</label>
-            <input type="password" class="form-control rounded-0" id="exampleInputPassword1" >
+            <label for="exampleInputEmail1" style="padding-top: 25px;">Your email</label>
+            <input type="email" class="form-control rounded-0" id="exampleInputEmail1" required >
         </div>
         <div class="row g-2">
-            <label for="exampleInputPassword1">Your Phone</label>
-        <div class="col-sm-2">
-            <input type="text" class="form-control rounded-0" placeholder="Code" aria-label="City">
+            <label for="exampleInputPassword1" style="padding-top: 25px;">Your Phone</label>
+        <div class="col-sm-3">
+            <input type="text" class="form-control rounded-0" placeholder="Code" aria-label="City" required>
         </div>
-        <div class="col-sm-10">
-            <input type="text" class="form-control rounded-0" placeholder="Phone" aria-label="State">
+        <div class="col-sm-9">
+            <input type="text" class="form-control rounded-0" placeholder="Phone" aria-label="State" required>
         </div>
         </div>
                           
-        <div class="btns d-grid col-6 my-3">
-            <button class="buttons text-white rounded-0" type="button">SUBMIT</button>
+        <div class="btns d-grid col-5 my-3">
+            <button class="buttons btn-warning text-white rounded-0" type="submit">SUBMIT</button>
         </div>
 
             </form>
@@ -153,16 +154,16 @@
     </section>
 
 
-    <footer class="py-2" style="background-color: #111111">
+    <footer class="py-4" style="background-color: #111111">
         <div class="container px-3 ">
         <div class="row gx-4 text-white" style="font-size: 10px;">
         <div class="col">
-            <img src="images/logo2.png" alt="">
-            <p>Copyright © 2017 Carl Ocab Internet Marketing Services • Privacy Policy • Contact Us </p>
+            <a href="https://www.carlocab.com/" target="_blank"><img src="images/logo2.png" alt=""></a>
+            <p>Copyright © 2017 Carl Ocab Internet Marketing Services • <a href="#" target="_blank" style="color: white; text-decoration: none;">Privacy Policy</a> • <a href="#frm" style="color: white; text-decoration: none;">Contact Us </a></p>
         </div>
         <div class="col">
             <p class="text-end"><br><br> 5 La Carlota St., Alabang Hills Village, Cupang, Muntinlupa 1771, Metro Manila, Philippines <br>
-                US: +1 (800) 765-2158 • Philippines: +63 (917) 833-960 </p>
+               <a href="tel: +1 (800) 765-2158" style="color: white; text-decoration: none;">US: +1 (800) 765-2158 </a> • <a href="tel: +63 (917) 833-960 " style="color: white; text-decoration: none;">Philippines: +63 (917) 833-960</a> </p>
         </div>
         </div>
     </footer>
