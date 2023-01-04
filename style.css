@@ -11318,6 +11318,13 @@ section {
     position:center;
     margin-top: 20%;
 }
+ul li:hover{
+  background-color:rgb(87, 82, 82);
+
+}
+a i:hover{
+  background-color:rgb(87, 82, 82);
+}
 #one{
     font-size: 40px;
     color:black;
@@ -11338,21 +11345,22 @@ button{
    font-size: 14px;
 }
 button:hover{
-  background-color: white;
-  color: black;
+  background-color:rgb(87, 82, 82);
 }
 .intouch{
   font-family: serif;;
   font-style: italic;
   font-size: 38px;
 }
-.buttons
+.btns button
   {
     height: 45px;
     font-size: 14px;
     font-weight: 500;
     background: var(--bs-yellow);
     letter-spacing: 3px;
+    width: 150px;
+    margin-bottom: 30px;
   }
 
 .footer img{
@@ -11360,4 +11368,3 @@ button:hover{
     padding-top: 15px;
     padding-left: 50px;
 }
-
